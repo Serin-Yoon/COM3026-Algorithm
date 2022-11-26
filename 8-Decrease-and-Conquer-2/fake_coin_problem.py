@@ -24,7 +24,7 @@ def fakeCoinOne(g1, g2, g3, cnt):
         fakeCoinOne(g1[:d], g1[d:2*d], g1[2*d:], cnt + 1)
     return
 
-# Fake Coin 2 / Constant Factor
+# Fake Coin 2 / Constant Factor 3
 def fakeCoinTwo(g1, g2, g3, cnt):
     w1 = weight(g1)
     w2 = weight(g2)
